@@ -1,0 +1,17 @@
+﻿;Définition
+card_transaction_id;Unique ID of the card payments
+member_role;Account member role of the person that have done the payment. It can be owner, admin, employee, manager, or reporting
+time_settled;Date time of the payment
+price_plan_subgroup_at_time;The price plan of the Qonto Account (cf. Qonto website)
+legal_country;The country where the company is registered
+card_id;the unique ID of the card used to performed the payment
+card_level_name;The level of the card. It correspond to the different card type we offer
+is_physical;Indicates whether the card used to pay is physical or virtual. 1 for physical
+payment_method;Gives information on the payment method
+reading_method_group_name;Gives information on the reading method used to perform the card payment
+counterparty_country_code;Indicates on which country the payment is done
+Local_amount_currency;The currency in which the payment is performed`
+movement_amount_euros;The amount of the payment in €
+is_fraud;Indicates whether the card payment is fraudulent or not. 1 being a fraud
+time_settled_diff;Indicates the velocity of the card payments. For one company, It is the time spend in second between the card payment of the company and the previous one.
+time_settled_diff2;Indicates the velocity of the card payment. For a given company, it is the time spend  in second between the card payment and the 2nd previous one.
